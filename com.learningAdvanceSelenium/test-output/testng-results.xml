@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Lauched Successfully....]]>
+    </line>
+    <line>
+      <![CDATA[Logged in Successfully to Demo Web Shop....]]>
+    </line>
+    <line>
+      <![CDATA[Logged out Successfully from Demo Web Shop....]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed Successfully....]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched Successfully....]]>
+    </line>
+    <line>
+      <![CDATA[Logged in Successfully to Demo Web Shop....]]>
+    </line>
+    <line>
+      <![CDATA[Logged out Successfully from Demo Web Shop....]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed Successfully....]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched Successfully....]]>
+    </line>
+    <line>
+      <![CDATA[Logged in Successfully to Demo Web Shop....]]>
+    </line>
+    <line>
+      <![CDATA[Logged out Successfully from Demo Web Shop....]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed Successfully....]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-25T13:52:27 IST" name="Suite" finished-at="2024-01-25T13:53:03 IST" duration-ms="36026">
+    <groups>
+      <group name="smokeTesting">
+        <method signature="TC001_Search_Test.searchTest()[pri:0, instance:com.testScripts.TC001_Search_Test@40a4337a]" name="searchTest" class="com.testScripts.TC001_Search_Test"/>
+      </group> <!-- smokeTesting -->
+      <group name="regressionTesting">
+        <method signature="TC002_AddToCart_Test.addProductToCart()[pri:0, instance:com.testScripts.TC002_AddToCart_Test@3b69e7d1]" name="addProductToCart" class="com.testScripts.TC002_AddToCart_Test"/>
+        <method signature="TC003_RemoveFromCart_Test.removeProductFromCart()[pri:0, instance:com.testScripts.TC003_RemoveFromCart_Test@7586beff]" name="removeProductFromCart" class="com.testScripts.TC003_RemoveFromCart_Test"/>
+      </group> <!-- regressionTesting -->
+    </groups>
+    <test started-at="2024-01-25T13:52:27 IST" name="Test" finished-at="2024-01-25T13:53:03 IST" duration-ms="36026">
+      <class name="com.testScripts.TC003_RemoveFromCart_Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testScripts.TC003_RemoveFromCart_Test@7586beff]" started-at="2024-01-25T13:52:39 IST" name="launchBrowser" finished-at="2024-01-25T13:52:43 IST" duration-ms="4113" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched Successfully....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToDWS(java.lang.reflect.Method)[pri:0, instance:com.testScripts.TC003_RemoveFromCart_Test@7586beff]" started-at="2024-01-25T13:52:43 IST" name="loginToDWS" finished-at="2024-01-25T13:52:45 IST" duration-ms="1538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testScripts.TC003_RemoveFromCart_Test.removeProductFromCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in Successfully to Demo Web Shop....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToDWS -->
+        <test-method signature="removeProductFromCart()[pri:0, instance:com.testScripts.TC003_RemoveFromCart_Test@7586beff]" started-at="2024-01-25T13:52:45 IST" name="removeProductFromCart" finished-at="2024-01-25T13:52:51 IST" duration-ms="5831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="logoutFromDWS()[pri:0, instance:com.testScripts.TC003_RemoveFromCart_Test@7586beff]" started-at="2024-01-25T13:52:51 IST" name="logoutFromDWS" finished-at="2024-01-25T13:52:51 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out Successfully from Demo Web Shop....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromDWS -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testScripts.TC003_RemoveFromCart_Test@7586beff]" started-at="2024-01-25T13:52:51 IST" name="closeBrowser" finished-at="2024-01-25T13:52:52 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed Successfully....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testScripts.TC003_RemoveFromCart_Test -->
+      <class name="com.testScripts.TC001_Search_Test">
+        <test-method is-config="true" signature="reportConfiguration()[pri:0, instance:com.testScripts.TC001_Search_Test@40a4337a]" started-at="2024-01-25T13:52:26 IST" name="reportConfiguration" finished-at="2024-01-25T13:52:27 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportConfiguration -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testScripts.TC001_Search_Test@40a4337a]" started-at="2024-01-25T13:52:27 IST" name="launchBrowser" finished-at="2024-01-25T13:52:33 IST" duration-ms="6063" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched Successfully....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToDWS(java.lang.reflect.Method)[pri:0, instance:com.testScripts.TC001_Search_Test@40a4337a]" started-at="2024-01-25T13:52:33 IST" name="loginToDWS" finished-at="2024-01-25T13:52:35 IST" duration-ms="1856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testScripts.TC001_Search_Test.searchTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in Successfully to Demo Web Shop....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToDWS -->
+        <test-method signature="searchTest()[pri:0, instance:com.testScripts.TC001_Search_Test@40a4337a]" started-at="2024-01-25T13:52:35 IST" name="searchTest" finished-at="2024-01-25T13:52:38 IST" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="logoutFromDWS()[pri:0, instance:com.testScripts.TC001_Search_Test@40a4337a]" started-at="2024-01-25T13:52:38 IST" name="logoutFromDWS" finished-at="2024-01-25T13:52:39 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out Successfully from Demo Web Shop....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromDWS -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testScripts.TC001_Search_Test@40a4337a]" started-at="2024-01-25T13:52:39 IST" name="closeBrowser" finished-at="2024-01-25T13:52:39 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed Successfully....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.testScripts.TC001_Search_Test@40a4337a]" started-at="2024-01-25T13:53:03 IST" name="flushReport" finished-at="2024-01-25T13:53:03 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.testScripts.TC001_Search_Test -->
+      <class name="com.testScripts.TC002_AddToCart_Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testScripts.TC002_AddToCart_Test@3b69e7d1]" started-at="2024-01-25T13:52:52 IST" name="launchBrowser" finished-at="2024-01-25T13:52:56 IST" duration-ms="4714" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched Successfully....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToDWS(java.lang.reflect.Method)[pri:0, instance:com.testScripts.TC002_AddToCart_Test@3b69e7d1]" started-at="2024-01-25T13:52:56 IST" name="loginToDWS" finished-at="2024-01-25T13:52:58 IST" duration-ms="1574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testScripts.TC002_AddToCart_Test.addProductToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in Successfully to Demo Web Shop....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToDWS -->
+        <test-method signature="addProductToCart()[pri:0, instance:com.testScripts.TC002_AddToCart_Test@3b69e7d1]" started-at="2024-01-25T13:52:58 IST" name="addProductToCart" finished-at="2024-01-25T13:53:02 IST" duration-ms="3815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="logoutFromDWS()[pri:0, instance:com.testScripts.TC002_AddToCart_Test@3b69e7d1]" started-at="2024-01-25T13:53:02 IST" name="logoutFromDWS" finished-at="2024-01-25T13:53:02 IST" duration-ms="809" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out Successfully from Demo Web Shop....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromDWS -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testScripts.TC002_AddToCart_Test@3b69e7d1]" started-at="2024-01-25T13:53:02 IST" name="closeBrowser" finished-at="2024-01-25T13:53:03 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed Successfully....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testScripts.TC002_AddToCart_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

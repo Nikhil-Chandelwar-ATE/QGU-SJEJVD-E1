@@ -3,6 +3,7 @@ package com.learning_TestNG;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+
 public class First_TestNG_Class {
 	
 	@Test	//It act like a main method
